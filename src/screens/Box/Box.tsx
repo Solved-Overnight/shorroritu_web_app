@@ -275,7 +275,7 @@ export const Box = (): JSX.Element => {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1000&h=700&dpr=1" // Generic market image
+                src="https://raw.githubusercontent.com/Solved-Overnight/shorroritu_web_app/refs/heads/main/src/img/img6.jpg" // Generic market image
                 alt="Bangladeshi Market"
                 className="rounded-2xl w-full h-[500px] object-cover shadow-xl"
                  onError={(e) => { console.error("Failed to load market image"); }}
