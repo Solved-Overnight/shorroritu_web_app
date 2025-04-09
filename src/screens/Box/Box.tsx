@@ -51,36 +51,36 @@ export const Box = (): JSX.Element => {
   // Best seller dishes data - Updated with Pexels images
   const bestSellerDishes = [
     {
-      image: "https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1", // Dried Mango
+      image: "https://raw.githubusercontent.com/Solved-Overnight/shorroritu_web_app/refs/heads/main/src/img/img18.jpg", // Dried Mango
       category: "Fruits",
-      price: "$9.99",
+      price: "$2.99",
       rating: 5,
       tag: "Sweet",
       name: "Dried Mango Slices"
     },
     {
-      image: "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1", // Jackfruit Chips (generic chips)
-      category: "Snacks",
-      price: "$12.99",
+      image: "https://raw.githubusercontent.com/Solved-Overnight/shorroritu_web_app/refs/heads/main/src/img/img10.jpg", // Pinapple
+      category: "Fruits",
+      price: "$2.99",
       rating: 5,
       tag: "New",
-      name: "Crispy Jackfruit Chips"
+      name: "Crispy Pineapple Rings"
     },
     {
-      image: "https://images.pexels.com/photos/461449/pexels-photo-461449.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1", // Pitha Mix (generic flour/mix)
-      category: "Pitha Mix",
-      price: "$15.99",
+      image: "https://raw.githubusercontent.com/Solved-Overnight/shorroritu_web_app/refs/heads/main/src/img/img16.jpg", // Mashroom
+      category: "Vegetables",
+      price: "$4.99",
       rating: 5,
       tag: "Traditional",
-      name: "Ready Pitha Mix"
+      name: "Mix Mushrooms"
     },
     {
-      image: "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1", // Dried Veg (generic salad/veg)
-      category: "Vegetables",
-      price: "$11.99",
+      image: "https://raw.githubusercontent.com/Solved-Overnight/shorroritu_web_app/refs/heads/main/src/img/img11.jpg", // Banana Chips
+      category: "Fruits",
+      price: "$0.99",
       rating: 5,
       tag: "Savory",
-      name: "Sun-dried Vegetables"
+      name: "Crispy Banana Chips"
     },
   ];
 
@@ -156,7 +156,7 @@ export const Box = (): JSX.Element => {
             </Badge>
 
             <img
-              src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1000&h=700&dpr=1" // Generic dried fruit/veg
+              src="https://raw.githubusercontent.com/Solved-Overnight/shorroritu_web_app/refs/heads/main/src/img/img3.jpg" // Generic dried fruit/veg
               alt="Dried seasonal produce"
               className="rounded-2xl w-full h-[500px] object-cover shadow-lg"
               onError={(e) => { console.error("Failed to load hero image"); }}
